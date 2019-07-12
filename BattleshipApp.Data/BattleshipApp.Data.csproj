@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7610D392-2397-4FC0-A685-7314D0AEA11B}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{FBE6A2E0-91FF-495A-8F3C-6D034DEAEC6F}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BattleshipApp</RootNamespace>
-    <AssemblyName>BattleshipApp</AssemblyName>
+    <RootNamespace>BattleshipApp.Data</RootNamespace>
+    <AssemblyName>BattleshipApp.Data</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,11 +40,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Extensions\EnumExtension.cs" />
+    <Compile Include="Models\Board.cs" />
+    <Compile Include="Models\BoardRepository.cs" />
+    <Compile Include="Models\Coordinates.cs" />
+    <Compile Include="Models\Field.cs" />
+    <Compile Include="Models\FiringBoard.cs" />
+    <Compile Include="Models\IBoardRepository.cs" />
+    <Compile Include="Models\IPlayerRepository.cs" />
+    <Compile Include="Models\OccupationType.cs" />
+    <Compile Include="Models\Player.cs" />
+    <Compile Include="Models\PlayerRepository.cs" />
+    <Compile Include="Models\Ship.cs" />
+    <Compile Include="Models\Ships\BattleShip.cs" />
+    <Compile Include="Models\Ships\Destroyer.cs" />
+    <Compile Include="Models\ShipType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
