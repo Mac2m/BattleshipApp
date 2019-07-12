@@ -42,21 +42,22 @@
   <ItemGroup>
     <Compile Include="Extensions\EnumExtension.cs" />
     <Compile Include="Models\Board.cs" />
-    <Compile Include="Models\BoardRepository.cs" />
+    <Compile Include="Models\Repo\BoardRepository.cs" />
     <Compile Include="Models\Coordinates.cs" />
     <Compile Include="Models\Field.cs" />
     <Compile Include="Models\FiringBoard.cs" />
-    <Compile Include="Models\IBoardRepository.cs" />
-    <Compile Include="Models\IPlayerRepository.cs" />
+    <Compile Include="Models\IRepo\IBoardRepository.cs" />
+    <Compile Include="Models\IRepo\IPlayerRepository.cs" />
     <Compile Include="Models\OccupationType.cs" />
     <Compile Include="Models\Player.cs" />
-    <Compile Include="Models\PlayerRepository.cs" />
+    <Compile Include="Models\Repo\PlayerRepository.cs" />
     <Compile Include="Models\Ship.cs" />
     <Compile Include="Models\Ships\BattleShip.cs" />
     <Compile Include="Models\Ships\Destroyer.cs" />
     <Compile Include="Models\ShipType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

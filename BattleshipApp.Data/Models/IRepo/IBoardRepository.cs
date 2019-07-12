@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace BattleshipApp.Data.Models
+namespace BattleshipApp.Data.Models.IRepo
 {
     public interface IBoardRepository
     {

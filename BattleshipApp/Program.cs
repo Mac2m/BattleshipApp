@@ -1,4 +1,5 @@
 ﻿using BattleshipApp.Data.Models;
+using BattleshipApp.Data.Models.IRepo;
 using Ninject;
 using System;
 using System.Collections.Generic;

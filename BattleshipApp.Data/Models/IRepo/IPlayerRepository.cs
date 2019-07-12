@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BattleshipApp.Data.Models
+namespace BattleshipApp.Data.Models.IRepo
 {
     public interface IPlayerRepository
     {
