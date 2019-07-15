@@ -1,6 +1,7 @@
+using BattleshipApp.Data.Models;
 using System.Collections.Generic;
 
-namespace BattleshipApp.Data.Models.IRepo
+namespace BattleshipApp.Data.IRepo
 {
     public interface IBoardRepository
     {

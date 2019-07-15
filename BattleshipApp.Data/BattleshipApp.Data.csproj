@@ -42,15 +42,15 @@
   <ItemGroup>
     <Compile Include="Extensions\EnumExtension.cs" />
     <Compile Include="Models\Board.cs" />
-    <Compile Include="Models\Repo\BoardRepository.cs" />
+    <Compile Include="Repo\BoardRepository.cs" />
     <Compile Include="Models\Coordinates.cs" />
     <Compile Include="Models\Field.cs" />
     <Compile Include="Models\FiringBoard.cs" />
-    <Compile Include="Models\IRepo\IBoardRepository.cs" />
-    <Compile Include="Models\IRepo\IPlayerRepository.cs" />
+    <Compile Include="IRepo\IBoardRepository.cs" />
+    <Compile Include="IRepo\IPlayerRepository.cs" />
     <Compile Include="Models\OccupationType.cs" />
     <Compile Include="Models\Player.cs" />
-    <Compile Include="Models\Repo\PlayerRepository.cs" />
+    <Compile Include="Repo\PlayerRepository.cs" />
     <Compile Include="Models\Ship.cs" />
     <Compile Include="Models\Ships\BattleShip.cs" />
     <Compile Include="Models\Ships\Destroyer.cs" />

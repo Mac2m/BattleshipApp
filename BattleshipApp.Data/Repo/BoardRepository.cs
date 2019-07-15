@@ -1,9 +1,10 @@
-using BattleshipApp.Data.Models.IRepo;
+using BattleshipApp.Data.IRepo;
+using BattleshipApp.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace BattleshipApp.Data.Models.Repo
+namespace BattleshipApp.Data.Repo
 {
     public class BoardRepository : IBoardRepository
     {

@@ -1,6 +1,6 @@
-﻿using BattleshipApp.Data.Models;
-using BattleshipApp.Data.Models.IRepo;
-using BattleshipApp.Data.Models.Repo;
+﻿using BattleshipApp.Data.IRepo;
+using BattleshipApp.Data.Models;
+using BattleshipApp.Data.Repo;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;

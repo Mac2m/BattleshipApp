@@ -1,10 +1,11 @@
-﻿using System;
+﻿using BattleshipApp.Data.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BattleshipApp.Data.Models.IRepo
+namespace BattleshipApp.Data.IRepo
 {
     public interface IPlayerRepository
     {

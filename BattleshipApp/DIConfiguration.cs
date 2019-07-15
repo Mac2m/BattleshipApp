@@ -1,5 +1,5 @@
-﻿using BattleshipApp.Data.Models.IRepo;
-using BattleshipApp.Data.Models.Repo;
+﻿using BattleshipApp.Data.IRepo;
+using BattleshipApp.Data.Repo;
 using Ninject.Modules;
 using System;
 using System.Collections.Generic;
